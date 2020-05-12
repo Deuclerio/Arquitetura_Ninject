@@ -8,7 +8,7 @@ import { Usuario } from "../../model/usuario";
   providedIn: "root"
 })
 
-export class UsuarioServico {
+export class UserService {
 
   public baseURL: string;
   private _usuario: Usuario;

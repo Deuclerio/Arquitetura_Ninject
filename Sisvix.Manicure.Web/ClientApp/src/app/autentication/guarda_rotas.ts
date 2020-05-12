@@ -1,19 +1,19 @@
 import { Injectable } from "@angular/core";
 import { Route, CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from "@angular/router"
-import { UsuarioServico } from "../services/user/usuario.servico";
+import { UserService } from "../../services/user/user.servico";
 
 @Injectable({
   providedIn: 'root'
 })
 export class GuardaRotas implements CanActivate {
 
-  constructor(private router: Router, private usuarioServico: UsuarioServico) {
+  constructor(private router: Router, private userServices: UserService) {
 
   }
 
   canActivate(_route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
     //this.usuarioServico
-    if (this.usuarioServico.usuario_autenticado()) {
+    if (this.userServices.usuario_autenticado()) {
       return true;
     }
 

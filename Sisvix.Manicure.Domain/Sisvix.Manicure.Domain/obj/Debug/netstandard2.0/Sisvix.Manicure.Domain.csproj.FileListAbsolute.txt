@@ -12,3 +12,4 @@ C:\Users\Deuclerio\Desktop\Arquitetura_Ninject\Arquitetura_Ninject\Arquitetura_N
 C:\Users\Deuclerio\Desktop\Arquitetura_Ninject\Arquitetura_Ninject\Arquitetura_Ninject\Sisvix.Manicure.Domain\Sisvix.Manicure.Domain\obj\Debug\netstandard2.0\Sisvix.Manicure.Domain.AssemblyInfo.cs
 C:\Users\Deuclerio\Desktop\Arquitetura_Ninject\Arquitetura_Ninject\Arquitetura_Ninject\Sisvix.Manicure.Domain\Sisvix.Manicure.Domain\obj\Debug\netstandard2.0\Sisvix.Manicure.Domain.dll
 C:\Users\Deuclerio\Desktop\Arquitetura_Ninject\Arquitetura_Ninject\Arquitetura_Ninject\Sisvix.Manicure.Domain\Sisvix.Manicure.Domain\obj\Debug\netstandard2.0\Sisvix.Manicure.Domain.pdb
+C:\Users\Deuclerio\Desktop\Arquitetura_Ninject\Arquitetura_Ninject\Arquitetura_Ninject\Sisvix.Manicure.Domain\Sisvix.Manicure.Domain\obj\Debug\netstandard2.0\Sisvix.Manicure.Domain.csprojAssemblyReference.cache

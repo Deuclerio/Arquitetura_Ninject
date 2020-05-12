@@ -26,7 +26,8 @@
   <ItemGroup>
     <None Remove="ClientApp\src\app\autentication\guarda_rotas.ts" />
     <None Remove="ClientApp\src\app\model\usuario.ts" />
-    <None Remove="ClientApp\src\app\services\user\usuario.servico.ts" />
+    <None Remove="ClientApp\src\app\services\user\user.servico.ts" />
+    <None Remove="ClientApp\src\app\user\Login\login.user.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,14 +38,16 @@
   <ItemGroup>
     <Folder Include="ClientApp\src\app\home\" />
     <Folder Include="ClientApp\src\app\services\home\" />
-    <Folder Include="ClientApp\src\app\user\Login\" />
-    <Folder Include="ClientApp\src\app\user\Register\" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\app\autentication\guarda_rotas.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\model\usuario.ts" />
-    <TypeScriptCompile Include="ClientApp\src\app\services\user\usuario.servico.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\user\user.servico.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\user\Login\login.user.component.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\app\user\Register\register.usuario.component.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
